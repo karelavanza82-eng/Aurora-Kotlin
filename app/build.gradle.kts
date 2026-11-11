@@ -137,8 +137,8 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
-            isShrinkResources = true
+            isMinifyEnabled = false
+            isShrinkResources = false
             isCrunchPngs = false
             isDebuggable = false
             if (file("keystore/release.keystore").exists()) {
