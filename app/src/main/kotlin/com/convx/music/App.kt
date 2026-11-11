@@ -75,7 +75,6 @@ class App : Application(), SingletonImageLoader.Factory {
 
     override fun onCreate() {
         super.onCreate()
-        com.convx.music.utils.CrashLogger.install(this)
         com.music.spotify.SpotifyAuth.initialize(this)
         // The recovery activity runs in its own process. Do not reopen the database,
         // preferences, native caches or playback integrations that may have crashed.
@@ -141,6 +140,7 @@ class App : Application(), SingletonImageLoader.Factory {
         }
 
         CrashHandler.install(this)
+        com.convx.music.utils.CrashLogger.install(this)
 
         CipherDeobfuscator.initialize(this)
 
