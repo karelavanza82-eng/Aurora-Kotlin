@@ -153,7 +153,7 @@ smoothCorner = { module = "com.github.racra:smooth-corner-rect-android-compose",
 work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "work" }
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3Version" }
-quickjs-kt = { module = "io.github.dokar3:quickjs-kt-android", version = "1.0.5" }
+quickjs-kt = { module = "io.github.dokar3:quickjs-kt-android", version = "1.0.18" }
 onnxruntime = { module = "com.microsoft.onnxruntime:onnxruntime-android", version.ref = "onnxruntime" }
 haze = { module = "dev.chrisbanes.haze:haze", version.ref = "haze" }
 haze-materials = { module = "dev.chrisbanes.haze:haze-materials", version.ref = "haze" }
